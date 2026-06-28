@@ -11,7 +11,7 @@ maddox --version
 
 - `Formula/maddox.rb` — the formula. Its download URLs point at the release assets
   in the distribution repository,
-  [`Maddox-LLC/maddox`](https://github.com/Maddox-LLC/maddox/releases).
+  [`Maddox-LLC/Maddox-CLI`](https://github.com/Maddox-LLC/Maddox-CLI/releases).
 
 The formula is generated rather than edited by hand: on each release,
 `scripts/bump-homebrew-formula.sh` (in the source monorepo) rewrites the `version`
@@ -21,5 +21,5 @@ canonical template lives at `packaging/Formula/maddox.rb` in the source reposito
 ## Installing without Homebrew
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Maddox-LLC/maddox/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Maddox-LLC/Maddox-CLI/main/install.sh | sh
 ```

@@ -21,5 +21,5 @@ canonical template lives at `packaging/Formula/maddox.rb` in the source reposito
 ## Installing without Homebrew
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Maddox-LLC/Maddox-CLI/main/install.sh | sh
+curl -fsSL https://get.maddoxapi.dev | sh
 ```

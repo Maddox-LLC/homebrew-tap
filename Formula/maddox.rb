@@ -7,28 +7,28 @@
 class Maddox < Formula
   desc "Official Maddox API command-line interface"
   homepage "https://maddoxapi.dev"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Maddox-LLC/Maddox-CLI/releases/download/cli-v#{version}/maddox-aarch64-apple-darwin"
-      sha256 "5bef97f5cfe0b8fd8442c6d65a2f332a1603d09714a30c34012f29e5cf993710"
+      sha256 "97aaf31c43ec57eab2d68957e890957ac098bd58fd5982d9b89143cad25a44be"
     end
     on_intel do
       url "https://github.com/Maddox-LLC/Maddox-CLI/releases/download/cli-v#{version}/maddox-x86_64-apple-darwin"
-      sha256 "e9c0945bd0b8f30e82c59c2503c56d678527bc4789b88562c28c4ca254b9ddae"
+      sha256 "7bf5d93d366de512f6927fb6fe2acc212b465396f95a94f7ff0d67e40516741a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Maddox-LLC/Maddox-CLI/releases/download/cli-v#{version}/maddox-aarch64-unknown-linux-musl"
-      sha256 "3b209e834d5c6671c45b60de6ba0b9e952c7fd376502933200e63576edbbb5a5"
+      sha256 "aaf4fba96890dc0e85141ef53996b09eca8631a14d1f445b64030ae61fb9c549"
     end
     on_intel do
       url "https://github.com/Maddox-LLC/Maddox-CLI/releases/download/cli-v#{version}/maddox-x86_64-unknown-linux-musl"
-      sha256 "fd4ba9ce7088a455ce82abe800831e6d1de5f9181142acb1b568c55376fd0747"
+      sha256 "db6dac25a22cdb886fcf4dd65aa6fd24e3ae265f58a05f0833c75f328111a058"
     end
   end
 
